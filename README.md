@@ -1,1 +1,3 @@
-# favorite-desserts
+# Favorite desserts
+
+- Erika: chocolate mousse
