@@ -22,11 +22,13 @@ for (i in seq_along(fave$favorite_dessert)) {
 
 if (length(matches) == 0) {
   message("No matches.")
+} else {
+  print(matches)
 }
 
-if (length(matches) != 0) {
-  print(matches_test)
-}
+#if (length(matches) != 0) {
+  #print(matches)
+#}
 
 # should output No matches.
 
@@ -45,11 +47,13 @@ for (i in seq_along(fave_test$favorite_dessert)) {
 
 if (length(matches_test) == 0) {
   message("No matches.")
-}
-
-if (length(matches_test) != 0) {
+} else {
   print(matches_test)
 }
+
+#if (length(matches_test) != 0) {
+  #print(matches_test)
+#}
 
 # Should output "Shave ice" or whatever match is in your file
 
